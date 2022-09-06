@@ -1,6 +1,6 @@
 package modules;
 
-public class Users {
+public class User {
 
     private int id;
     private String email;
@@ -10,7 +10,7 @@ public class Users {
     private String avatar;
 
     //Used for POST and PUT requests
-    public Users(String name, String lastname) {
+    public User(String name, String lastname) {
         setName(name);
         setLastname(lastname);
     }

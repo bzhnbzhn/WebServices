@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e3a86b7-5430-4b2c-ad7b-ecc6f72f71cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/first_api_test/ApiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/modules/GetSingleUserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modules/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modules/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/first_api_test/ApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/first_api_test/ApiTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,22 +63,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApiTests.getDeserializedProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="APItesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="first_api_test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="first_api_test" />
-      <option name="MAIN_CLASS_NAME" value="first_api_test.ApiTests" />
-      <option name="METHOD_NAME" value="getDeserializedProduct" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ApiTests.getUserBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APItesting" />
       <extension name="coverage">
@@ -114,6 +95,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiTests.shouldRegisterNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="APItesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="first_api_test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="first_api_test" />
+      <option name="MAIN_CLASS_NAME" value="first_api_test.ApiTests" />
+      <option name="METHOD_NAME" value="shouldRegisterNewUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApiTests.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="APItesting" />
       <extension name="coverage">
@@ -133,10 +130,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ApiTests" />
+        <item itemvalue="JUnit.ApiTests.shouldRegisterNewUser" />
         <item itemvalue="JUnit.ApiTests.updateUser" />
         <item itemvalue="JUnit.ApiTests.registerNewUser" />
         <item itemvalue="JUnit.ApiTests.getUserBody" />
-        <item itemvalue="JUnit.ApiTests.getDeserializedProduct" />
       </list>
     </recent_temporary>
   </component>
